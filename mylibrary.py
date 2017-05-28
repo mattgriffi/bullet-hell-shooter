@@ -183,10 +183,10 @@ class MyLibrary(object):
                     MyLibrary.window_width - 50, MyLibrary.health_bar_image.get_height()
                 ))
         # Bullets
-        homing_bullet_image_path = os.path.join('graphics', 'guy_fieri.png')
-        exploding_bullet_image_path = os.path.join('graphics', 'guy_fieri.png')
-        enemy_bullet_image_path = os.path.join('graphics', 'guy_fieri.png')
-        player_bullet_image_path = os.path.join('graphics', 'guy_fieri.png')
+        homing_bullet_image_path = os.path.join('graphics', 'homing_bullet.png')
+        exploding_bullet_image_path = os.path.join('graphics', 'exploding_bullet.png')
+        enemy_bullet_image_path = os.path.join('graphics', 'enemy_bullet.png')
+        player_bullet_image_path = os.path.join('graphics', 'player_bullet.png')
 
         MyLibrary.bullets = {
             'homing':    pygame.image.load(homing_bullet_image_path).convert_alpha(),
