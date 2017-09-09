@@ -24,6 +24,16 @@ The required 3rd party module (pygame) is listed in requirements.txt and can be 
 pip install -r requirements.txt
 ```
 
+## Screenshots
+
+<img src="images/boss1_phase1.png" width="500">
+
+<img src="images/boss2_phase3.png" width="500">
+
+<img src="images/boss3_phase4.png" width="500">
+
+<img src="images/upgrades.png" width="500">
+
 ## Reflection/Postmortem
 
 This game was my first real project. I was able to accomplish exactly what I set out to do without compromise. However, since I honestly had no idea what I was doing and had to figure everything out along the way, the code is utter trash. Some of the code in this project still gives me a headache when I look back on it, and I don't want to touch it with a 10 foot pole. So, instead of rewriting this project from scratch to make it pretty, I have chosen to preserve the code in all of its original beginner-level glory, and instead write a reflection. This reflection will go through the code file-by-file, method-by-method, and describe how I would do it differently if I were to tackle the same project today, 1 year later.
